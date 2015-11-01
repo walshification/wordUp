@@ -1,0 +1,4 @@
+Django
+selenium
+nose2
+coverage
