@@ -1,3 +1,10 @@
 from django.db import models
 
-# Create your models here.
+
+class TextWork(models.Model):
+
+    def __repr__(self):
+        return str(self)
+
+    def __str__(self):
+        return 'Work #{}'.format(self.id)
